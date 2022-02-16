@@ -1,0 +1,175 @@
+body {
+	background-color: #eb1464;
+	font-family: 'Nunito', sans-serif;
+}
+.header {
+	text-align: center;
+	font-size: 1.5rem;
+	color: aliceblue;
+	padding: 30px;
+}
+.icon {
+	color: aliceblue;
+	padding: 15px;
+}
+h3 {
+	font-size: 2rem;
+	margin-left: 50px;
+}
+.about,
+.Education,
+.skill,
+.language,
+.contact {
+	background-color: aliceblue;
+	width: 80%;
+	margin: auto;
+	padding: 15px 15px 20px 15px;
+	font-size: 1.3rem;
+	line-height: 1.6;
+}
+.Education,
+.skill,
+.language,
+.contact {
+	margin-top: 40px;
+}
+.about_me,
+.container,
+.lang {
+	display: flex;
+	justify-content: space-around;
+}
+.image {
+	width: 250px;
+	height: 300px;
+	margin: 50px 0 50px 50px;
+}
+.certi {
+	width: 250px;
+	height: 300px;
+	margin-right: 90px;
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.year,
+.contact_info {
+	margin-left: 50px;
+	font-size: 1.3rem;
+}
+.container,
+.lang {
+	justify-content: space-between;
+	margin-left: 50px;
+}
+.beng {
+	margin-right: 500px;
+}
+.contact_info input {
+	width: 90%;
+}
+.email,
+.subject {
+	padding: 10px;
+	background-color: #eeeeee;
+	margin-top: 10px;
+	border: none;
+	height: 30px;
+	font-size: 1.3rem;
+}
+.message {
+	height: 300px;
+	margin-top: 10px;
+	border: none;
+	font-size: 1.3rem;
+	padding: 10px;
+	background-color: #eeeeee;
+}
+.btn {
+	background: #eb1464;
+	border: none;
+	border-radius: 20px;
+	padding: 15px;
+	color: aliceblue;
+	width: 250px;
+	margin-top: 30px;
+}
+.contact {
+	padding-bottom: 80px;
+}
+.footer {
+	text-align: center;
+	padding: 50px;
+	color: aliceblue;
+	font-size: 1.3rem;
+}
+.skills {
+	width: 50%;
+	font-size: 1.2rem;
+	line-height: 1.6;
+}
+@media screen and (min-width: 320px) and (max-width: 426px) {
+	.about_me {
+		display: block;
+	}
+	h3 {
+		text-align: center;
+		margin-left: 0;
+	}
+	.about {
+		font-size: 1rem;
+	}
+	.container {
+		flex-wrap: wrap;
+		margin-left: 20px;
+	}
+	.skills {
+		width: 100%;
+		font-size: 1rem;
+	}
+	.certi {
+		width: 150px;
+		height: 150px;
+	}
+	.contact_info {
+		margin-left: 0;
+	}
+	.year {
+		font-size: 1rem;
+		text-align: center;
+		margin-left: 0;
+	}
+	.skill {
+		font-size: 1rem;
+	}
+	.lang {
+		flex-wrap: wrap;
+		font-size: 1rem;
+	}
+	.email,
+	.subject,
+	.message {
+		font-size: 1rem;
+	}
+	.footer {
+		font-size: 1rem;
+	}
+	.self {
+		text-align: center;
+	}
+	.image {
+		margin: 0;
+	}
+}
+@media screen and (min-width: 426px) and (max-width: 769px) {
+	.about_me {
+		display: block;
+	}
+	.container {
+		flex-wrap: wrap;
+	}
+	.skills {
+		width: 100%;
+	}
+}
